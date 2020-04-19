@@ -118,7 +118,7 @@
 .message {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .incoming-message {
   align-self: flex-start;
@@ -203,4 +203,8 @@
         opacity: 1;
         transform: none;
     }
+}
+
+.chats__chat {
+    margin-bottom : 20px;
 }
