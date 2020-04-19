@@ -36,3 +36,15 @@
 
   border-radius: 50%;
 }
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: none;
+  }
+}
+.nav {
+  animation: showNavBar 1s ease-out;
+}
