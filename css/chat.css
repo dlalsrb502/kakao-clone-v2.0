@@ -1,0 +1,128 @@
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 5px 0px;
+  background-color: white;
+}
+.chats__body {
+  padding: 10px 0px;
+  padding-top: 100px;
+  background-image: url("../images/chatBg.png");
+  min-height: 100vh;
+  height: 100000px;
+}
+.chats__body .header,
+.chats__body .status-bar {
+  padding: 0px 20px;
+}
+.chat__write {
+  position: fixed;
+  bottom: 50px;
+  width: 80%;
+
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  background-color: #fcfcfc;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+
+  justify-content: space-between;
+  align-items: center;
+}
+.chat__write i {
+  font-size: 22px;
+}
+.chat-screen .g-avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.chat__write-column.text_input {
+  width: 80%;
+}
+
+.chat__write-input {
+  width: 100%;
+  border: none;
+  font-size: 14px;
+}
+input:focus {
+  outline: none;
+}
+
+.chat-screen .chat__messages {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+}
+
+.chat__messages .chat__timestamp {
+  background-color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 15px 35px rgba(41, 41, 43, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.incoming-message {
+  align-self: flex-start;
+}
+.sent-message {
+  align-self: flex-end;
+}
+.incoming-message img {
+  width: 30px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.message .message__bubble {
+  background-color: #fcfcfc;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.incomming__message__timestamp {
+  margin-top: 32px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.sent__message__timestamp {
+  margin-right: 5px;
+  font-size: 12px;
+}
+.incoming-message .message__author {
+  margin-bottom: 15px;
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.incoming-message .message__bubble {
+  border-top-left-radius: 0px;
+}
+.sent-message .message__bubble {
+  border-bottom-right-radius: 0px;
+  background-color: #fce006;
+}

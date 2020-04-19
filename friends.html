@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/e145912983.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakako Clone</title>
   </head>
   <body>
@@ -18,6 +19,7 @@
       <div class="status-bar__column">
         <i class="fas fa-signal"></i>
         <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">75%</span>
         <i class="fas fa-battery-three-quarters"></i>
       </div>
     </div>
@@ -40,13 +42,13 @@
       <header class="friends__header">
         <div class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/lmk.jpg" class="g-avatar freind__avatar" />
+            <img src="images/lmk.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Lee Minkyu
               </span>
               <span class="friend__status">
-                Hello! I'm mklee
+                Hello! I'm Minkyu
               </span>
             </div>
           </div>
@@ -56,9 +58,9 @@
         <h5 class="friends__plus-title">Birthday</h5>
         <div class="friends__friend friend friend">
           <div class="friend__column">
-            <img src="images/cake_icon.jpg" class="g-avatar freind__avatar" />
+            <img src="images/cake_icon.jpg" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__name">
+              <span class="friend__name-birthday">
                 Check your friends birthday!
               </span>
             </div>
@@ -67,21 +69,78 @@
       </div>
       <ul class="friends__list">
         <h5 class="class friends__title">Friends 14</h5>
-        <li class="friends__friend friend friend--lg">
+        <li class="friends__friend friend friend__li">
           <div class="friend__column">
-            <img src="images/jyp.jpg" class="g-avatar freind__avatar" />
+            <img src="images/jyp.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Park Jiyoung
               </span>
               <span class="friend__status">
-                Hello! I'm jypark
+                Hello! I'm Jiyoung
               </span>
             </div>
           </div>
           <div class="friend__column">
             <div class="friend__now-listening">
-              <span>Hello-Adele</span>
+              <span>아로하-쿨</span>
+              <i class="far fa-play-circle"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend__li">
+          <div class="friend__column">
+            <img src="images/jyp2.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Park Jiyoung2
+              </span>
+              <span class="friend__status">
+                Hello! I'm Jiyoung2
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>한숨-이하이</span>
+              <i class="far fa-play-circle"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend__li">
+          <div class="friend__column">
+            <img src="images/syh.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                송영훈
+              </span>
+              <span class="friend__status">
+                통칭:대전대장(맞짱뜰 사람 카톡)
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>살다가-SG 워너비</span>
+              <i class="far fa-play-circle"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend__li">
+          <div class="friend__column">
+            <img src="images/ujh.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                유재현
+              </span>
+              <span class="friend__status">
+                돌아와...
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>고칠게-진원</span>
               <i class="far fa-play-circle"></i>
             </div>
           </div>
@@ -98,6 +157,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i>
           </a>
         </li>

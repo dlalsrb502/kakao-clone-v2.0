@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/e145912983.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Settings | Kakako Clone</title>
   </head>
   <body>
@@ -18,14 +19,15 @@
       <div class="status-bar__column">
         <i class="fas fa-signal"></i>
         <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">75%</span>
         <i class="fas fa-battery-three-quarters"></i>
       </div>
     </div>
 
     <header class="header">
       <div class="header-header__column">
-        <a href="more.html">
-          <i class="fas fa-arrow-left fa-2x"></i>
+        <a href="more.html" class="header__back-btn">
+          <i class="fas fa-arrow-left"></i>
         </a>
         <h1 class="header__title">Settings</h1>
       </div>
@@ -35,15 +37,16 @@
         </span>
       </div>
     </header>
+
     <main class="settings">
       <section class="settings__sections">
         <ul class="setting__list">
           <li class="setting__setting">
             <span class="settings__icon">
-              <i class="fas fa-bullhorn"></i>
+              <i class="far fa-bell"></i>
             </span>
             <span class="settings__title">
-              Notices
+              Notifications
             </span>
           </li>
           <li class="setting__setting">
@@ -60,6 +63,34 @@
             </span>
             <span class="settings__title">
               Friends
+            </span>
+          </li>
+        </ul>
+      </section>
+      <section class="settings__sections">
+        <ul class="setting__list">
+          <li class="setting__setting">
+            <span class="settings__icon">
+              <i class="fab fa-amazon-pay"></i>
+            </span>
+            <span class="settings__title">
+              Kakako Pay
+            </span>
+          </li>
+          <li class="setting__setting">
+            <span class="settings__icon">
+              <i class="fas fa-tv"></i>
+            </span>
+            <span class="settings__title">
+              Display
+            </span>
+          </li>
+          <li class="setting__setting">
+            <span class="settings__icon">
+              <i class="far fa-question-circle"></i>
+            </span>
+            <span class="settings__title">
+              Questions
             </span>
           </li>
         </ul>
